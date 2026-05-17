@@ -1,4 +1,8 @@
 package com.empresa.pedidos_integrado.dominio;
 
-public class TipoPedido {
+public enum TipoPedido {
+
+    ESTANDAR,
+    EXPRESS,
+    INTERNACIONAL
 }
